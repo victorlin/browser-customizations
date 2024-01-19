@@ -1,0 +1,5 @@
+/* https://forum.vivaldi.net/topic/73252/not-showing-thumbnails-in-tab-cycler/13 */
+.tabswitcher.list {grid-template-columns: 0px 1fr;grid-gap: unset;max-height: 95vh !important;width: 50vw;}
+.tabswitcher.list img.visual-list-preview {visibility: collapse;}
+.tabswitcher.list li.active-page {background-color: var(--colorAccentBg) !important;}
+.tabswitcher.list li.active-page.selected {background-color: var(--colorHighlightBg) !important;}
